@@ -138,7 +138,7 @@ var libraries = (function () {
 
   var libraries = {
     "Peter Olson BigInteger.js": {
-      url: ["https://peterolson.github.io/BigInteger.js/BigInteger.js"],
+      url: ["https://cyan-2048.github.io/bn-benchmark/BigInteger.js"],
       projectURL: "https://github.com/peterolson/BigInteger.js",
       onStart: createInitialization("bigInt"),
       tests: generateTests(function (x) {
