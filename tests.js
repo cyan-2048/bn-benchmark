@@ -190,7 +190,7 @@ var libraries = (function () {
       }),
     },
     "ChromeLabs JSBI": {
-      url: ["https://unpkg.com/jsbi@2.0.5/dist/jsbi-umd.js"],
+      url: ["https://cyan-2048.github.io/bn-benchmark/jsbi.js"],
       projectURL: "https://github.com/GoogleChromeLabs/jsbi",
       onStart: createInitialization("JSBI.BigInt"),
       tests: generateTests(function (x) {
@@ -229,8 +229,8 @@ var libraries = (function () {
     },
     "Tom Wu jsbn": {
       url: [
-        "http://www-cs-students.stanford.edu/~tjw/jsbn/jsbn.js",
-        "http://www-cs-students.stanford.edu/~tjw/jsbn/jsbn2.js",
+        "https://cyan-2048.github.io/bn-benchmark/jsbn.js",
+        "https://cyan-2048.github.io/bn-benchmark/jsbn2.js",
       ],
       projectURL: "http://www-cs-students.stanford.edu/~tjw/jsbn/",
       onStart: createInitialization("new BigInteger"),
